@@ -99,11 +99,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-color: #000;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #404040 15%, #181818 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #404040 15%, #181818 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #404040 15%, #181818 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #404040 15%, #181818 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2295,7 +2295,7 @@ input, select, textarea {
 		}
 
 		.icon.style2 {
-			color: #c79cc8;
+			color: #5d9c9c;
 		}
 
 		.icon.style3 {
@@ -2303,7 +2303,7 @@ input, select, textarea {
 		}
 
 		.icon.style4 {
-			color: #9bb2e1;
+			color: #6c5d9c;
 		}
 
 		.icon.style5 {
@@ -2884,7 +2884,7 @@ input, select, textarea {
 		}
 
 			.statistics li.style1 {
-				background-color: #efa8b0;
+				background-color: #879c96;
 			}
 
 			.statistics li.style2 {
@@ -2892,7 +2892,7 @@ input, select, textarea {
 			}
 
 			.statistics li.style3 {
-				background-color: #a89cc8;
+				background-color: #7e919e;
 			}
 
 			.statistics li.style4 {
@@ -2900,7 +2900,7 @@ input, select, textarea {
 			}
 
 			.statistics li.style5 {
-				background-color: #8cc9f0;
+				background-color: #8e85a1;
 			}
 
 			.statistics li strong, .statistics li b {
@@ -3546,10 +3546,10 @@ input, select, textarea {
 
 		#main header.major h2:after {
 			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: -moz-linear-gradient(90deg, #8fd863, #f6bf4c, #e250b1, #4d90c5);
+			background-image: -webkit-linear-gradient(90deg, #8fd863, #f6bf4c, #e250b1, #4d90c5);
+			background-image: -ms-linear-gradient(90deg, #8fd863, #f6bf4c, #e250b1, #4d90c5);
+			background-image: linear-gradient(90deg, #8fd863, #f6bf4c, #e250b1, #4d90c5);
 		}
 
 		#main table tbody tr {
