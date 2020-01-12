@@ -1,5 +1,7 @@
 @import url(fontawesome-all.min.css);
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
+@import "https://fonts.googleapis.com/css?family=Raleway";
+@import "https://fonts.googleapis.com/css?family=Roboto:100&display=swap";
 
 /*
 	Stellar by HTML5 UP
@@ -3091,6 +3093,11 @@ input, select, textarea {
 
 			#header.alt h1 {
 				font-size: 3.25em;
+				font-family: 'Raleway';
+			}
+
+			#header.alt p {
+				font-family: 'Roboto', sans-serif;
 			}
 
 			#header.alt > * {
