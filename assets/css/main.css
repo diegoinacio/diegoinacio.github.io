@@ -2638,6 +2638,18 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	section.special .plist {
+		text-align: left;
+	}
+
+		section.special .plist ul {
+			list-style: none;
+		}
+
+		section.special .plist li:not(:last-child) {
+			margin-bottom: 30px;
+		}
+
 	header.major {
 		margin-bottom: 3em;
 	}
