@@ -8,7 +8,7 @@
 	<mask id="circles_mask">
 		<!-- <rect x="0" y="0" width="128" height="128" fill="white" /> -->
 		<circle id="circle_mask" cx="64" cy="64" r="56" fill="black" stroke="white" stroke-width="0" />
-        <animate xlink:href="#circle_mask" attributeName="stroke-width" values="0; 12" dur="1.5s" begin="0.1s" fill="freeze"/>
+        <animate xlink:href="#circle_mask" attributeName="stroke-width" values="0; 8" dur="1.5s" begin="0.1s" fill="freeze"/>
     </mask>
 
 	<mask id="text_mask">
