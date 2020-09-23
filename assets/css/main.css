@@ -3929,3 +3929,11 @@ a.project.repository {
   font-weight: 400;
   color: hsl(0, 0%, 60%);
 }
+
+#main > .main p.about strong {
+  font-weight: 600;
+}
+
+#main > .main p.about u {
+  font-weight: 400;
+}
