@@ -23,7 +23,6 @@ sidebar_nav.appendChild(sidebar_nav_ul);
 const ITEMS = [
   `<a href="index.html">Home</a>`,
   `<a href="about.html">About</a>`,
-  `<a href="resume.html">Resume</a>`,
   `<a href="blog.html">Blog</a>`,
   `
   <span class="opener">Projects</span>
@@ -33,6 +32,7 @@ const ITEMS = [
     <li><a href="#">Creative Stuff</a></li>
   </ul>
   `,
+  `<a href="resume.html">Resume</a>`,
 ];
 
 ITEMS.forEach((item) => {
