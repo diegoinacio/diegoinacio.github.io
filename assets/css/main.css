@@ -1728,6 +1728,21 @@ header.main > :last-child {
   margin: 0 0 1em 0;
 }
 
+section.resume {
+  border-top: none !important;
+}
+
+section.resume .features article {
+  display: block;
+  width: 100%;
+  margin: 0px;
+  margin-bottom: 3em;
+}
+
+section.resume .features article:nth-last-child(1) {
+  margin-bottom: 0px;
+}
+
 /* ! Form */
 form {
   margin: 0 0 2em 0;
@@ -2200,6 +2215,18 @@ ul.icons li .icon:before {
   font-size: 1.75em;
 }
 
+ul.icons.special {
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
 /* ! Contact */
 ul.contact {
   list-style: none;
@@ -2595,7 +2622,7 @@ button:disabled,
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   border-radius: 0.25rem;
-  border: solid 2px rgba(210, 215, 217, 0.75);
+  border: solid 5px rgba(210, 215, 217, 0.75);
   content: "";
   display: block;
   height: 7em;
@@ -2691,6 +2718,14 @@ button:disabled,
   .features article .icon:before {
     font-size: 1.25rem;
   }
+}
+
+.features.special article .icon:before {
+  color: #7f888f;
+}
+
+.features.special article .icon:after {
+  border-color: #40bf80;
 }
 
 /* ! Posts */
@@ -3246,7 +3281,7 @@ button:disabled,
       flex-shrink: 0;
   display: block;
   margin: 0 0 2em 4em;
-  width: 50%;
+  width: 30%;
 }
 
 #banner .image img {

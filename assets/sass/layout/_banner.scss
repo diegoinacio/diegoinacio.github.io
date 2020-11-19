@@ -19,7 +19,7 @@
     @include vendor("flex-shrink", "0");
     display: block;
     margin: 0 0 _size(element-margin) (_size(element-margin) * 2);
-    width: 50%;
+    width: 30%;
 
     img {
       height: 100%;

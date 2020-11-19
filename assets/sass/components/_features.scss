@@ -48,7 +48,7 @@
       &:after {
         @include vendor("transform", "rotate(45deg)");
         border-radius: 0.25rem;
-        border: solid 2px _palette(border);
+        border: solid 5px _palette(border);
         content: "";
         display: block;
         height: 7em;
@@ -143,6 +143,20 @@
       .icon {
         &:before {
           font-size: 1.25rem;
+        }
+      }
+    }
+  }
+
+  // ! Special features - about section
+  &.special {
+    article {
+      .icon {
+        &:before {
+          color: _palette(fg);
+        }
+        &:after {
+          border-color: _palette(accent);
         }
       }
     }

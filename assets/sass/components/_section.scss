@@ -32,3 +32,23 @@ header {
     }
   }
 }
+
+// ! Special features - resume section
+section {
+  &.resume {
+    border-top: none !important;
+
+    .features {
+      article {
+        display: block;
+        width: 100%;
+        margin: 0px;
+        margin-bottom: _size(gutter);
+
+        &:nth-last-child(1) {
+          margin-bottom: 0px;
+        }
+      }
+    }
+  }
+}

@@ -21,4 +21,10 @@ ul.icons {
       }
     }
   }
+
+  &.special {
+    @include vendor("justify-content", "center");
+    display: flex;
+    width: 100%;
+  }
 }
