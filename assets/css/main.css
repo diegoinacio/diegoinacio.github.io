@@ -1743,6 +1743,10 @@ section.resume .features article:nth-last-child(1) {
   margin-bottom: 0px;
 }
 
+section.resume .features article h2 a {
+  color: #9fa3a6;
+}
+
 /* ! Form */
 form {
   margin: 0 0 2em 0;

@@ -48,6 +48,12 @@ section {
         &:nth-last-child(1) {
           margin-bottom: 0px;
         }
+
+        h2 {
+          a {
+            color: _palette(fg-light);
+          }
+        }
       }
     }
   }
