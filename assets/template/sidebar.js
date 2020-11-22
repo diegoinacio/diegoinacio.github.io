@@ -27,9 +27,9 @@ const ITEMS = [
   `
   <span class="opener">Projects</span>
   <ul>
-    <li><a href="#">Open Source</a></li>
-    <li><a href="#">Machine Intelligence</a></li>
-    <li><a href="#">Creative Stuff</a></li>
+    <li><a href="project_open_source.html">Open Source</a></li>
+    <li><a href="project_machine_intelligence.html">Machine Intelligence</a></li>
+    <li><a href="project_creative.html">Creative Stuff</a></li>
   </ul>
   `,
   `<a href="resume.html">Resume</a>`,
