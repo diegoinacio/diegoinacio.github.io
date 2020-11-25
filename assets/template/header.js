@@ -2,7 +2,68 @@ const header = document.querySelector("div#main header#header");
 
 // ! Title
 
-const TITLES = [
+const header_a = document.createElement("a");
+header_a.href = "index.html";
+header_a.className = "logo";
+header.appendChild(header_a);
+
+// * Functions
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function getRandom(N) {
+  return parseInt(Math.random() * N);
+}
+
+function getAlphabet(list) {
+  let alphabet = [];
+  for (let i = 0; i < list.length; i++) {
+    let word = list[i];
+    for (let j = 0; j < word.length; j++) {
+      if (!alphabet.includes(word[j])) {
+        alphabet.push(word[j]);
+      }
+    }
+  }
+  return alphabet.sort();
+}
+
+// * Prototypes
+Number.prototype.nextRandom = function (N) {
+  let next = this.valueOf();
+  while (next === this.valueOf()) {
+    next = parseInt(Math.random() * N);
+  }
+  return next;
+};
+
+String.prototype.getDifference = function (stringB) {
+  let output = [];
+  let stringA = this.valueOf();
+  for (let i = 0; i < stringA.length; i++) {
+    output.push(alphabet.indexOf(stringB[i]) - alphabet.indexOf(stringA[i]));
+  }
+  return output;
+};
+
+String.prototype.morphFromDiff = function (diff) {
+  let string = this.valueOf();
+  for (let i = 0; i < string.length; i++) {
+    let element = string[i];
+    let d = Math.sign(diff[i]);
+    element = alphabet[alphabet.indexOf(element) + d];
+    string = string.substr(0, i) + element + string.substr(i + 1);
+  }
+  return string;
+};
+
+// * Parameters
+const TIME = 2000;
+const time = 50;
+
+// * Variables
+let TITLES = [
   "mathematics",
   "computer science",
   "data science",
@@ -11,22 +72,53 @@ const TITLES = [
   "computer vision",
   "digital image processing",
   "computer graphics",
+  "xzy0123456789@",
 ];
 
-const N = TITLES.length;
-let title_i = parseInt(Math.random() * N);
+// * Get alphabet
+const alphabet = getAlphabet(TITLES);
+TITLES.pop(); // ? remove additional characters
 
-const header_a = document.createElement("a");
-header_a.href = "index.html";
-header_a.className = "logo";
-header.appendChild(header_a);
+// * Get maximum title size
+const n_titles = TITLES.length;
+const max_size = TITLES.sort((a, b) => {
+  return b.length - a.length;
+})[0].length;
 
-header_a.innerHTML = `<strong>Diego Inácio</strong> | ${TITLES[title_i]}`;
+// * Pad all with whitespace, based on max size
+TITLES = TITLES.map((e) => {
+  return e.padEnd(max_size);
+});
 
-setInterval(() => {
-  title_i = parseInt(Math.random() * N);
-  header_a.innerHTML = `<strong>Diego Inácio</strong> | ${TITLES[title_i]}`;
-}, 2000);
+// * Get random indices (initial and final titles) ..
+// * .. and its respective titles
+let index_o = getRandom(n_titles);
+let index_i = index_o.nextRandom(n_titles);
+let title_o = TITLES[index_o];
+let title_i = TITLES[index_i];
+
+// * Get difference values between the titles
+let diff = title_o.getDifference(title_i);
+let diff_a = diff.map(Math.abs);
+let diff_max = Math.max(...diff_a);
+
+// * Outputs initial title
+header_a.innerHTML = `<strong>Diego Inácio</strong> | <span>${title_o}</span>`;
+
+setInterval(async function () {
+  // * Start morphing
+  while (title_o !== title_i) {
+    title_o = title_o.morphFromDiff(diff);
+    diff = title_o.getDifference(title_i);
+    header_a.innerHTML = `<strong>Diego Inácio</strong> | <span>${title_o}</span>`;
+    await sleep(time);
+  }
+  // * Update random titles
+  index_o = index_i;
+  index_i = index_o.nextRandom(n_titles);
+  title_o = TITLES[index_o];
+  title_i = TITLES[index_i];
+}, TIME + time * (diff_max + 1));
 
 // ! Icons
 
