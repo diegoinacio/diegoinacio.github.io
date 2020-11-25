@@ -16,6 +16,10 @@
     color: inherit;
     font-family: _font(family-heading);
     font-size: 1.125em;
+
+    span {
+      font-family: _font(family-title-mono);
+    }
   }
 
   .icons {
