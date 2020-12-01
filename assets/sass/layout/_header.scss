@@ -17,8 +17,12 @@
     font-family: _font(family-heading);
     font-size: 1.125em;
 
-    span {
+    .field {
       font-family: _font(family-title-mono);
+    }
+
+    .field:before {
+      content: "|";
     }
   }
 
@@ -44,6 +48,20 @@
       position: absolute;
       right: (-0.625em / 1.25);
       top: 0;
+    }
+  }
+
+  @include breakpoint("<=xsmall") {
+    .logo {
+      .field {
+        display: block;
+        text-decoration: overline 1px dotted;
+        white-space: pre;
+      }
+
+      .field:before {
+        content: "";
+      }
     }
   }
 }

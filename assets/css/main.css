@@ -3222,8 +3222,12 @@ button:disabled,
   font-size: 1.125em;
 }
 
-#header .logo span {
+#header .logo .field {
   font-family: "Source Code Pro", monospace;
+}
+
+#header .logo .field:before {
+  content: "|";
 }
 
 #header .icons {
@@ -3250,6 +3254,18 @@ button:disabled,
     position: absolute;
     right: -0.5em;
     top: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #header .logo .field {
+    display: block;
+    -webkit-text-decoration: overline 1px dotted;
+            text-decoration: overline 1px dotted;
+    white-space: pre;
+  }
+  #header .logo .field:before {
+    content: "";
   }
 }
 
