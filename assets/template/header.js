@@ -103,14 +103,14 @@ let diff_a = diff.map(Math.abs);
 let diff_max = Math.max(...diff_a);
 
 // * Outputs initial title
-header_a.innerHTML = `<strong>Diego Inácio</strong> | <span>${title_o}</span>`;
+header_a.innerHTML = `<strong>Diego Inácio</strong> <span class="field">${title_o}</span>`;
 
 setInterval(async function () {
   // * Start morphing
   while (title_o !== title_i) {
     title_o = title_o.morphFromDiff(diff);
     diff = title_o.getDifference(title_i);
-    header_a.innerHTML = `<strong>Diego Inácio</strong> | <span>${title_o}</span>`;
+    header_a.innerHTML = `<strong>Diego Inácio</strong> <span class="field">${title_o}</span>`;
     await sleep(time);
   }
   // * Update random titles
