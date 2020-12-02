@@ -2692,11 +2692,6 @@ button:disabled,
 
 @media screen and (max-width: 480px) {
   .features article {
-    -moz-flex-direction: column;
-    -ms-flex-direction: column;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-            flex-direction: column;
     -moz-align-items: -moz-flex-start;
     -ms-align-items: -ms-flex-start;
     -webkit-box-align: start;

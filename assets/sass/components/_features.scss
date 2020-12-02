@@ -116,7 +116,7 @@
 
   @include breakpoint("<=xsmall") {
     article {
-      @include vendor("flex-direction", "column");
+      // @include vendor("flex-direction", "column");
       @include vendor("align-items", "flex-start");
 
       .icon {
