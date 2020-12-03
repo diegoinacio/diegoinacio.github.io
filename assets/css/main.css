@@ -2196,6 +2196,19 @@ ul.actions.fit.stacked {
   width: 100%;
 }
 
+@media screen and (max-width: 480px) {
+  ul.actions.special {
+    display: block;
+  }
+  ul.actions.special li {
+    padding-left: 0;
+    padding-top: 1em;
+  }
+  ul.actions.special li:first-child {
+    padding-top: 0;
+  }
+}
+
 /* ! Icons */
 ul.icons {
   cursor: default;

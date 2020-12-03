@@ -54,4 +54,19 @@ ul.actions {
       width: 100%;
     }
   }
+
+  @include breakpoint("<=xsmall") {
+    &.special {
+      display: block;
+
+      li {
+        padding-left: 0;
+        padding-top: (_size(element-margin) * 0.5);
+
+        &:first-child {
+          padding-top: 0;
+        }
+      }
+    }
+  }
 }
