@@ -27,9 +27,10 @@ const ITEMS = [
   `
   <span class="opener">Projects</span>
   <ul>
-    <li><a href="project_open_source.html">Open Source</a></li>
-    <li><a href="project_machine_intelligence.html">Machine Intelligence</a></li>
-    <li><a href="project_creative.html">Creative Stuff</a></li>
+    <li><a href="project_educational.html" class="icon solid fa-book alt"> Educational</a></li>
+    <li><a href="project_applications.html" class="icon solid fa-columns alt"> Applications</a></li>
+    <li><a href="project_open_source.html" class="icon brands fa-osi alt"> Open Source</a></li>
+    <li><a href="project_creative.html" class="icon solid fa-palette alt"> Creative Stuff</a></li>
   </ul>
   `,
   `<a href="resume.html">Resume</a>`,
