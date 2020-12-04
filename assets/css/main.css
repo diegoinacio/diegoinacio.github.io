@@ -2802,6 +2802,7 @@ button:disabled,
 .posts article .image img {
   display: block;
   width: 100%;
+  border: 1px dotted rgba(210, 215, 217, 0.75);
 }
 
 @media screen and (min-width: 1681px) {
