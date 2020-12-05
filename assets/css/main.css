@@ -1748,6 +1748,20 @@ section.resume .features article h2 a {
   color: #9fa3a6;
 }
 
+section.resume .features article h2 a:before {
+  content: "@ ";
+}
+
+section.resume .features article h2 a:hover::before {
+  color: #b3e6cc;
+}
+
+@media screen and (max-width: 736px) {
+  section.resume .features article h2 a {
+    display: block;
+  }
+}
+
 /* ! Form */
 form {
   margin: 0 0 2em 0;

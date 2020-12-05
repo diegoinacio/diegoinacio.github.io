@@ -53,6 +53,20 @@ section {
           a {
             color: _palette(fg-light);
           }
+
+          a:before {
+            content: "@ ";
+          }
+
+          a:hover::before {
+            color: lighten(_palette(accent), 30%);
+          }
+
+          @include breakpoint("<=small") {
+            a {
+              display: block;
+            }
+          }
         }
       }
     }
