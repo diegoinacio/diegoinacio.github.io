@@ -55,6 +55,7 @@ section {
           }
 
           a:before {
+            transition: color _duration(transition);
             content: "@ ";
           }
 

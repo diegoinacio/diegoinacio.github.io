@@ -1749,6 +1749,8 @@ section.resume .features article h2 a {
 }
 
 section.resume .features article h2 a:before {
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
   content: "@ ";
 }
 
@@ -3245,7 +3247,14 @@ button:disabled,
   font-size: 1.125em;
 }
 
+#header .logo strong {
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
 #header .logo .field {
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
   font-family: "Source Code Pro", monospace;
 }
 

@@ -17,7 +17,12 @@
     font-family: _font(family-heading);
     font-size: 1.125em;
 
+    strong {
+      transition: color _duration(transition);
+    }
+
     .field {
+      transition: color _duration(transition);
       font-family: _font(family-title-mono);
     }
 
