@@ -3292,8 +3292,9 @@ button:disabled,
 @media screen and (max-width: 480px) {
   #header .logo .field {
     display: block;
-    -webkit-text-decoration: overline 1px dotted;
-            text-decoration: overline 1px dotted;
+    -webkit-text-decoration: overline dotted;
+            text-decoration: overline dotted;
+    text-decoration-thickness: 0.075em;
     white-space: pre;
   }
   #header .logo .field:before {

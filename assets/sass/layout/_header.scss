@@ -60,7 +60,8 @@
     .logo {
       .field {
         display: block;
-        text-decoration: overline 1px dotted;
+        text-decoration: overline dotted;
+        text-decoration-thickness: 0.075em;
         white-space: pre;
       }
 
