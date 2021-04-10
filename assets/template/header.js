@@ -72,7 +72,7 @@ let TITLES = [
   "computer vision",
   "digital image processing",
   "computer graphics",
-  "xzy0123456789@",
+  "wxyz0123456789@#$%&",
 ];
 
 // * Get alphabet
