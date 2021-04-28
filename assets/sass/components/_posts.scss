@@ -51,6 +51,26 @@
         border: 1px dotted _palette(border);
       }
     }
+
+    .tags {
+      ul {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        width: 100%;
+        margin-bottom: 2em;
+        display: flex;
+        flex-wrap: wrap;
+
+        li {
+          font-size: 70%;
+          list-style-type: none;
+          margin: 0 0.4em 0.4em 0;
+          padding: 0.2em 0.5em;
+          border-radius: _size(border-radius);
+        }
+      }
+    }
   }
 
   @include breakpoint("xlarge-to-max") {
