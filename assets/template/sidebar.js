@@ -24,15 +24,7 @@ const ITEMS = [
   `<a href="index.html">Home</a>`,
   `<a href="about.html">About</a>`,
   `<a href="blog.html">Blog</a>`,
-  `
-  <span class="opener">Projects</span>
-  <ul>
-    <li><a href="project_educational.html" class="icon solid fa-book alt"> Educational</a></li>
-    <li><a href="project_applications.html" class="icon solid fa-columns alt"> Applications</a></li>
-    <li><a href="project_open_source.html" class="icon brands fa-osi alt"> Open Source</a></li>
-    <li><a href="project_creative.html" class="icon solid fa-palette alt"> Creative Stuff</a></li>
-  </ul>
-  `,
+  `<a href="projects.html">Projects</a>`,
   `<a href="resume.html">Resume</a>`,
 ];
 
