@@ -33,8 +33,41 @@ header {
   }
 }
 
-// ! Special features - resume section
+// ! Special features
 section {
+  // * projects tags menu
+  .tags-menu {
+    ul {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      width: 100%;
+      margin-bottom: 2em;
+      display: flex;
+      flex-wrap: wrap;
+
+      li {
+        font-size: 80%;
+        list-style-type: none;
+        margin: 0 0.4em 0.4em 0;
+        padding: 0.2em 0.5em;
+        border-radius: _size(border-radius);
+        transition: color _duration(transition);
+
+        &[selected="true"] {
+          border-color: black !important;
+        }
+      }
+
+      li:hover {
+        color: black;
+        cursor: pointer;
+        transition: color _duration(transition);
+      }
+    }
+  }
+
+  // * resume section
   &.resume {
     border-top: none !important;
 
