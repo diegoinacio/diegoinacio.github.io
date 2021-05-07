@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 264">
+  <defs>
+    <style>
+      .fill-obj {
+        fill: hsla(150, 70%, 50%, 0.5);
+      }
+      .stroke-obj {
+        fill: none;
+        stroke: hsl(150, 30%, 50%);
+        stroke-width: 16px;
+      }
+    </style>
+  </defs>
+  <title>set-complement</title>
+  <g id="SET_COMPLEMENT" data-name="SET COMPLEMENT">
+    <path
+      class="fill-obj"
+      d="M0,0V256H256V0ZM150.13,226a75.89,75.89,0,0,1-71-49.12,75.88,75.88,0,1,1,97.76-97.76A75.88,75.88,0,0,1,150.13,226Z"
+      transform="translate(4 4)"
+    />
+  </g>
+  <g id="SET_CONTOUR" data-name="SET CONTOUR">
+    <circle class="stroke-obj" cx="109.87" cy="109.87" r="75.87" />
+    <circle class="stroke-obj" cx="154.13" cy="154.13" r="75.87" />
+  </g>
+</svg>
