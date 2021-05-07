@@ -1729,6 +1729,12 @@ header.main > :last-child {
   margin: 0 0 1em 0;
 }
 
+section .tags-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 section .tags-menu ul {
   margin: 0;
   padding: 0;
@@ -1754,6 +1760,16 @@ section .tags-menu ul li {
 
 section .tags-menu ul li[selected="true"] {
   border-color: black !important;
+}
+
+section .tags-menu ul li::after {
+  content: attr(counter);
+  margin-left: 1em;
+  padding: 0.1em 0.5em;
+  border: inherit;
+  border-radius: inherit;
+  background-color: rgba(0, 0, 0, 0.05);
+  font-weight: bold;
 }
 
 section .tags-menu ul li:hover {
@@ -2596,6 +2612,32 @@ button:disabled,
 .button:disabled {
   pointer-events: none;
   opacity: 0.25;
+}
+
+button[class*="set-type"] {
+  margin: 0;
+  padding: 0;
+  width: 3.6em;
+  height: 3.6em;
+  margin-right: 1em;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+button.set-type-union {
+  background-image: url("../icons/set-union.svg");
+}
+
+button.set-type-intersection {
+  background-image: url("../icons/set-intersection.svg");
+}
+
+button.set-type-difference {
+  background-image: url("../icons/set-difference.svg");
+}
+
+button.set-type-complement {
+  background-image: url("../icons/set-complement.svg");
 }
 
 /* ! Mini Posts */

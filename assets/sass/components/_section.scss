@@ -37,6 +37,8 @@ header {
 section {
   // * projects tags menu
   .tags-menu {
+    display: flex;
+
     ul {
       margin: 0;
       padding: 0;
@@ -56,6 +58,16 @@ section {
 
         &[selected="true"] {
           border-color: black !important;
+        }
+
+        &::after {
+          content: attr(counter);
+          margin-left: 1em;
+          padding: 0.1em 0.5em;
+          border: inherit;
+          border-radius: inherit;
+          background-color: rgba(0, 0, 0, 0.05);
+          font-weight: bold;
         }
       }
 

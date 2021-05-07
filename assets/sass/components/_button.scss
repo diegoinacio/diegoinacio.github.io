@@ -80,3 +80,31 @@ button,
     opacity: 0.25;
   }
 }
+
+button {
+  &[class*="set-type"] {
+    margin: 0;
+    padding: 0;
+    width: 3.6em;
+    height: 3.6em;
+    margin-right: 1em;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &.set-type-union {
+    background-image: url("../icons/set-union.svg");
+  }
+
+  &.set-type-intersection {
+    background-image: url("../icons/set-intersection.svg");
+  }
+
+  &.set-type-difference {
+    background-image: url("../icons/set-difference.svg");
+  }
+
+  &.set-type-complement {
+    background-image: url("../icons/set-complement.svg");
+  }
+}
