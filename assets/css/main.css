@@ -1751,15 +1751,24 @@ section .tags-menu ul {
 section .tags-menu ul li {
   font-size: 80%;
   list-style-type: none;
-  margin: 0 0.4em 0.4em 0;
+  margin: 0 0.5em 0.5em 0;
   padding: 0.2em 0.5em;
   border-radius: 0.375em;
   -webkit-transition: color 0.2s;
   transition: color 0.2s;
+  -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+          box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
 }
 
 section .tags-menu ul li[selected="true"] {
-  border-color: black !important;
+  border-color: rgba(0, 0, 0, 0.5) !important;
+  -webkit-box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.1);
+          box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+section .tags-menu ul li[selected="true"]::after {
+  -webkit-box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
 }
 
 section .tags-menu ul li::after {
@@ -1768,7 +1777,8 @@ section .tags-menu ul li::after {
   padding: 0.1em 0.5em;
   border: inherit;
   border-radius: inherit;
-  background-color: rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.1);
+          box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.1);
   font-weight: bold;
 }
 
