@@ -6,8 +6,8 @@
 - I am really thrilled about using <ins>Mathematics and Computing</ins> to <strong>solve real-world <ins>business problems</ins></strong>;
 - 📌 <ins>My <strong>2026</strong> goals</ins>:
   - Dedicate myself more to music and creative activities.
-  - Deepen my knowledge in **Advanced Statistics**, specially in <code>**Causal** and **Bayesian** Inference</code>.
-  - Develop my skills in <ins>**Management Science** and **Decision Making**</ins> under uncertainty.
+  - Deepen my knowledge in <strong>Advanced Statistics</strong>, specially in <code><strong>Causal</strong> and <strong>Bayesian</strong> Inference</code>.
+  - Develop my skills in <ins><strong>Management Science</strong> and <strong>Decision Making</strong></ins> under uncertainty.
 - ♻️ <ins>My recurring goals</ins>:
   - Evolve my self-development and discipline.
   - Be kind, empathetic, professional, and helpful.
