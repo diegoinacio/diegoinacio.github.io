@@ -3,7 +3,7 @@
   <img src="image.svg" style="display: block; width: 100%; height: auto;" />
 
   <!-- PNG sobreposto -->
-  <img src="avatar.png" style="position: absolute; top: 0px; left: 0px; height: 100%; width: auto" />
+  <img src="avatar.png" style="position: absolute; top: 0px; left: 0px; height: 100%; width: auto; background-color: transparent !important;" />
 </div>
 
 ## Hey there 👋🏽 welcome to my _GitHub_!
