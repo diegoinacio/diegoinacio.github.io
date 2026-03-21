@@ -6,7 +6,7 @@
   <img src="avatar.png" style="position: absolute; top: 0px; left: 0px; height: 100%; width: auto; background-color: transparent !important;" />
 </div>
 
-## Hey there 👋🏽 welcome to my _GitHub_!
+## Hey there 👋🏽 welcome to _my personal website_!
 
 - I am a <em>Brazilian</em> <strong>Computer Scientist</strong> who loves making sense of data through <code><strong>Data Science</strong> and <strong>Analytics</strong></code>;
 - I am really thrilled about using <ins>Mathematics and Computing</ins> to <strong>solve real-world <ins>business problems</ins></strong>;
