@@ -13,7 +13,7 @@
 - 📌 <ins>My <strong>2026</strong> goals</ins>:
   - Dedicate myself more to music and creative activities.
   - Deepen my knowledge in <strong>Advanced Statistics</strong>, specially in <code><strong>Causal</strong> and <strong>Bayesian</strong> Inference</code>.
-  - Develop my skills in <ins><strong>Management Science</strong> and <strong>Decision Making</strong></ins> under uncertainty.
+  - Develop my skills in <ins><strong>Management Science</strong></ins> and <ins><strong>Decision Making</strong> under uncertainty</ins>.
 - ♻️ <ins>My recurring goals</ins>:
   - Evolve my self-development and discipline.
   - Be kind, empathetic, professional, and helpful.
