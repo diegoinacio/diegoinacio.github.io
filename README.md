@@ -61,7 +61,6 @@
 |              [Computer Vision Notebooks][fpl02] | An authorial set of fundamental Python recipes on **Computer Vision** and **Digital Image Processing**. | 👁️ 📷 🔬 |
 |             [Machine Learning Notebooks][fpl03] | An authorial set of fundamental python recipes on **Machine Learning** and **Artificial Intelligence**. | 🤖 📊 🧠 |
 |               [Object Detection web app][fpl04] | A lightweight web app for real-time object detection via webcam, using **Flask and OpenCV**.            | 👁️ 🔍 🎥 |
-|      [Encrypted Information Application][fpl05] | Web application for securely storing and retrieving encrypted personal information.                     | 🔑 🔒 📂 |
 
 ## Top 🏳️‍🌈 Creative Projects
 
@@ -77,7 +76,6 @@
 [fpl02]: https://github.com/diegoinacio/computer-vision-notebooks
 [fpl03]: https://github.com/diegoinacio/machine-learning-notebooks
 [fpl04]: https://github.com/diegoinacio/object-detection-flask-opencv/
-[fpl05]: https://github.com/diegoinacio/encrypted-info-app
 [cpl01]: https://github.com/diegoinacio/creative-coding-notebooks/
 [cpl02]: https://diegoinacio.github.io/svg-experiments/
 [cpl03]: https://diegoinacio.github.io/multiversal-gallery/
